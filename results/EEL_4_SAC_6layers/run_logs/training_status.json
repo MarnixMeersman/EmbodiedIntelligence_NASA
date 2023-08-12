@@ -1,0 +1,65 @@
+{
+    "Worm": {
+        "checkpoints": [
+            {
+                "steps": 999000,
+                "file_path": "results\\EEL_4_SAC_6layers\\Worm\\Worm-999000.onnx",
+                "reward": 18.04004743364122,
+                "creation_time": 1691918470.8713555,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC_6layers\\Worm\\Worm-999000.pt"
+                ]
+            },
+            {
+                "steps": 1499000,
+                "file_path": "results\\EEL_4_SAC_6layers\\Worm\\Worm-1499000.onnx",
+                "reward": 319.88057427657276,
+                "creation_time": 1691919886.192932,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC_6layers\\Worm\\Worm-1499000.pt"
+                ]
+            },
+            {
+                "steps": 1650000,
+                "file_path": "results\\EEL_4_SAC_6layers\\Worm\\Worm-1650000.onnx",
+                "reward": null,
+                "creation_time": 1691920381.4730887,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC_6layers\\Worm\\Worm-1650000.pt"
+                ]
+            },
+            {
+                "steps": 1999000,
+                "file_path": "results\\EEL_4_SAC_6layers\\Worm\\Worm-1999000.onnx",
+                "reward": 302.534199764854,
+                "creation_time": 1691921434.9458623,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC_6layers\\Worm\\Worm-1999000.pt"
+                ]
+            },
+            {
+                "steps": 2100000,
+                "file_path": "results\\EEL_4_SAC_6layers\\Worm\\Worm-2100000.onnx",
+                "reward": null,
+                "creation_time": 1691921724.231542,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC_6layers\\Worm\\Worm-2100000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2100000,
+            "file_path": "results\\EEL_4_SAC_6layers\\Worm.onnx",
+            "reward": null,
+            "creation_time": 1691921724.231542,
+            "auxillary_file_paths": [
+                "results\\EEL_4_SAC_6layers\\Worm\\Worm-2100000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

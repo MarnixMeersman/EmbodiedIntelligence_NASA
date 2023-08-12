@@ -2,31 +2,58 @@
     "Worm": {
         "checkpoints": [
             {
-                "steps": 360000,
-                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-360000.onnx",
+                "steps": 6210000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-6210000.onnx",
                 "reward": null,
-                "creation_time": 1691871241.189415,
+                "creation_time": 1691921895.5412693,
                 "auxillary_file_paths": [
-                    "results\\EEL_4_SAC\\Worm\\Worm-360000.pt"
+                    "results\\EEL_4_SAC\\Worm\\Worm-6210000.pt"
                 ]
             },
             {
-                "steps": 360000,
-                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-360000.onnx",
-                "reward": null,
-                "creation_time": 1691871332.3198962,
+                "steps": 6499000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-6499000.onnx",
+                "reward": 1242.9384358723958,
+                "creation_time": 1691922759.6395204,
                 "auxillary_file_paths": [
-                    "results\\EEL_4_SAC\\Worm\\Worm-360000.pt"
+                    "results\\EEL_4_SAC\\Worm\\Worm-6499000.pt"
+                ]
+            },
+            {
+                "steps": 6999000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-6999000.onnx",
+                "reward": 1120.3607177734375,
+                "creation_time": 1691923888.6483753,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC\\Worm\\Worm-6999000.pt"
+                ]
+            },
+            {
+                "steps": 7499000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-7499000.onnx",
+                "reward": 1268.5205270867598,
+                "creation_time": 1691925042.1189158,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC\\Worm\\Worm-7499000.pt"
+                ]
+            },
+            {
+                "steps": 7680000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-7680000.onnx",
+                "reward": null,
+                "creation_time": 1691925478.0064585,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC\\Worm\\Worm-7680000.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 360000,
+            "steps": 7680000,
             "file_path": "results\\EEL_4_SAC\\Worm.onnx",
             "reward": null,
-            "creation_time": 1691871332.3198962,
+            "creation_time": 1691925478.0064585,
             "auxillary_file_paths": [
-                "results\\EEL_4_SAC\\Worm\\Worm-360000.pt"
+                "results\\EEL_4_SAC\\Worm\\Worm-7680000.pt"
             ]
         }
     },

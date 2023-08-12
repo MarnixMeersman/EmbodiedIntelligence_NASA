@@ -1,4 +1,4 @@
-using UnityEngine;
+ using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgentsExamples;
@@ -7,7 +7,7 @@ using Unity.MLAgents.Sensors;
 [RequireComponent(typeof(JointDriveController))] // Required to set joint forces
 public class WormAgent : Agent
 {
-    const float m_MaxWalkingSpeed = 10; //The max walking speed
+    const float m_MaxWalkingSpeed = 50; //The max walking speed
 
     [Header("Target Prefabs")] public Transform TargetPrefab; //Target prefab to use in Dynamic envs
     private Transform m_Target; //Target the agent will walk towards during training.
@@ -16,6 +16,16 @@ public class WormAgent : Agent
     public Transform bodySegment1;
     public Transform bodySegment2;
     public Transform bodySegment3;
+    public Transform bodySegment4;
+    public Transform bodySegment5;
+    public Transform bodySegment6;
+    public Transform bodySegment7;
+    public Transform bodySegment8;
+    public Transform bodySegment9;
+    public Transform bodySegment10;
+    public Transform bodySegment11;
+
+
 
     //This will be used as a stabilized model space reference point for observations
     //Because ragdolls can move erratically during training, using a stabilized reference transform improves learning
@@ -43,6 +53,14 @@ public class WormAgent : Agent
         m_JdController.SetupBodyPart(bodySegment1);
         m_JdController.SetupBodyPart(bodySegment2);
         m_JdController.SetupBodyPart(bodySegment3);
+        m_JdController.SetupBodyPart(bodySegment4);
+        m_JdController.SetupBodyPart(bodySegment5);
+        m_JdController.SetupBodyPart(bodySegment6);
+        m_JdController.SetupBodyPart(bodySegment7);
+        m_JdController.SetupBodyPart(bodySegment8);
+        m_JdController.SetupBodyPart(bodySegment9);
+        m_JdController.SetupBodyPart(bodySegment10);
+        m_JdController.SetupBodyPart(bodySegment11);
     }
 
 
@@ -144,11 +162,28 @@ public class WormAgent : Agent
         bpDict[bodySegment0].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
         bpDict[bodySegment1].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
         bpDict[bodySegment2].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
+        bpDict[bodySegment3].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
+        bpDict[bodySegment4].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
+        bpDict[bodySegment5].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
+        bpDict[bodySegment6].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
+        bpDict[bodySegment7].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
+        bpDict[bodySegment8].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
+        bpDict[bodySegment9].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
+        bpDict[bodySegment10].SetJointTargetRotation(continuousActions[++i], continuousActions[++i], 0);
 
         // Update joint strength
         bpDict[bodySegment0].SetJointStrength(continuousActions[++i]);
         bpDict[bodySegment1].SetJointStrength(continuousActions[++i]);
         bpDict[bodySegment2].SetJointStrength(continuousActions[++i]);
+        bpDict[bodySegment3].SetJointStrength(continuousActions[++i]);
+        bpDict[bodySegment4].SetJointStrength(continuousActions[++i]);
+        bpDict[bodySegment5].SetJointStrength(continuousActions[++i]);
+        bpDict[bodySegment6].SetJointStrength(continuousActions[++i]);
+        bpDict[bodySegment7].SetJointStrength(continuousActions[++i]);
+        bpDict[bodySegment8].SetJointStrength(continuousActions[++i]);
+        bpDict[bodySegment9].SetJointStrength(continuousActions[++i]);
+        bpDict[bodySegment10].SetJointStrength(continuousActions[++i]);
+        
 
         //Reset if Worm fell through floor;
         if (bodySegment0.position.y < m_StartingPos.y - 2)

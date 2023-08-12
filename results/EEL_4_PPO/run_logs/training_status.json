@@ -1,0 +1,65 @@
+{
+    "Worm": {
+        "checkpoints": [
+            {
+                "steps": 5499000,
+                "file_path": "results\\EEL_4_PPO\\Worm\\Worm-5499000.onnx",
+                "reward": 303.93667772081164,
+                "creation_time": 1691879210.87194,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_PPO\\Worm\\Worm-5499000.pt"
+                ]
+            },
+            {
+                "steps": 5999000,
+                "file_path": "results\\EEL_4_PPO\\Worm\\Worm-5999000.onnx",
+                "reward": 317.5729064941406,
+                "creation_time": 1691879433.7695606,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_PPO\\Worm\\Worm-5999000.pt"
+                ]
+            },
+            {
+                "steps": 6499000,
+                "file_path": "results\\EEL_4_PPO\\Worm\\Worm-6499000.onnx",
+                "reward": 346.1504680926983,
+                "creation_time": 1691879702.0482347,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_PPO\\Worm\\Worm-6499000.pt"
+                ]
+            },
+            {
+                "steps": 6999000,
+                "file_path": "results\\EEL_4_PPO\\Worm\\Worm-6999000.onnx",
+                "reward": 351.76089816623266,
+                "creation_time": 1691879948.7228167,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_PPO\\Worm\\Worm-6999000.pt"
+                ]
+            },
+            {
+                "steps": 7010000,
+                "file_path": "results\\EEL_4_PPO\\Worm\\Worm-7010000.onnx",
+                "reward": 352.3125930786133,
+                "creation_time": 1691879959.8153272,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_PPO\\Worm\\Worm-7010000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 7010000,
+            "file_path": "results\\EEL_4_PPO\\Worm.onnx",
+            "reward": 352.3125930786133,
+            "creation_time": 1691879959.8153272,
+            "auxillary_file_paths": [
+                "results\\EEL_4_PPO\\Worm\\Worm-7010000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

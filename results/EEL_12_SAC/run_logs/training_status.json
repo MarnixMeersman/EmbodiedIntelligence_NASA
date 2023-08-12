@@ -1,0 +1,65 @@
+{
+    "Worm": {
+        "checkpoints": [
+            {
+                "steps": 499000,
+                "file_path": "results\\EEL_12_SAC\\Worm\\Worm-499000.onnx",
+                "reward": 0.0207409950119491,
+                "creation_time": 1691929018.9366236,
+                "auxillary_file_paths": [
+                    "results\\EEL_12_SAC\\Worm\\Worm-499000.pt"
+                ]
+            },
+            {
+                "steps": 999000,
+                "file_path": "results\\EEL_12_SAC\\Worm\\Worm-999000.onnx",
+                "reward": 0.005353533559375339,
+                "creation_time": 1691930299.9835649,
+                "auxillary_file_paths": [
+                    "results\\EEL_12_SAC\\Worm\\Worm-999000.pt"
+                ]
+            },
+            {
+                "steps": 1270000,
+                "file_path": "results\\EEL_12_SAC\\Worm\\Worm-1270000.onnx",
+                "reward": null,
+                "creation_time": 1691930957.4031909,
+                "auxillary_file_paths": [
+                    "results\\EEL_12_SAC\\Worm\\Worm-1270000.pt"
+                ]
+            },
+            {
+                "steps": 1270000,
+                "file_path": "results\\EEL_12_SAC\\Worm\\Worm-1270000.onnx",
+                "reward": null,
+                "creation_time": 1691931071.1127384,
+                "auxillary_file_paths": [
+                    "results\\EEL_12_SAC\\Worm\\Worm-1270000.pt"
+                ]
+            },
+            {
+                "steps": 1290000,
+                "file_path": "results\\EEL_12_SAC\\Worm\\Worm-1290000.onnx",
+                "reward": null,
+                "creation_time": 1691931146.0901268,
+                "auxillary_file_paths": [
+                    "results\\EEL_12_SAC\\Worm\\Worm-1290000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1290000,
+            "file_path": "results\\EEL_12_SAC\\Worm.onnx",
+            "reward": null,
+            "creation_time": 1691931146.0901268,
+            "auxillary_file_paths": [
+                "results\\EEL_12_SAC\\Worm\\Worm-1290000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1691931483",
+        "python_version": "3.9.17 (main, Jul  5 2023, 20:47:11) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Chloe\\anaconda3\\envs\\EmbodiedIntelligence1\\Scripts\\mlagents-learn ml-agents-develop/config/ppo/EEL12.yaml --run-id=EEL_12_PPO --torch-device=cuda --env=ml-agents-develop/Project/Builds/EEL_12/UnityEnvironment.exe --num-envs=18 --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1691931524"
+    },
+    "total": 40.874816,
+    "count": 1,
+    "self": 1.4199654000000024,
+    "children": {
+        "run_training.setup": {
+            "total": 1.3259069,
+            "count": 1,
+            "self": 1.3259069
+        },
+        "TrainerController.start_learning": {
+            "total": 38.1289437,
+            "count": 1,
+            "self": 0.00037240000000338114,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 38.128387,
+                    "count": 1,
+                    "self": 38.128387
+                },
+                "trainer_threads": {
+                    "total": 1.6999999985500835e-06,
+                    "count": 1,
+                    "self": 1.6999999985500835e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00018260000000225318,
+                    "count": 1,
+                    "self": 0.00018260000000225318
+                }
+            }
+        }
+    }
+}
