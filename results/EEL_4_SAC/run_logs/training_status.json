@@ -2,31 +2,58 @@
     "Worm": {
         "checkpoints": [
             {
-                "steps": 340000,
-                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-340000.onnx",
-                "reward": null,
-                "creation_time": 1691837189.9998221,
+                "steps": 999000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-999000.onnx",
+                "reward": 1132.8015543619792,
+                "creation_time": 1691854063.0067735,
                 "auxillary_file_paths": [
-                    "results\\EEL_4_SAC\\Worm\\Worm-340000.pt"
+                    "results\\EEL_4_SAC\\Worm\\Worm-999000.pt"
                 ]
             },
             {
-                "steps": 350000,
-                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-350000.onnx",
-                "reward": null,
-                "creation_time": 1691840115.284214,
+                "steps": 1499000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-1499000.onnx",
+                "reward": 1275.2137858072917,
+                "creation_time": 1691855373.8467171,
                 "auxillary_file_paths": [
-                    "results\\EEL_4_SAC\\Worm\\Worm-350000.pt"
+                    "results\\EEL_4_SAC\\Worm\\Worm-1499000.pt"
+                ]
+            },
+            {
+                "steps": 1999000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-1999000.onnx",
+                "reward": 1407.7544759114583,
+                "creation_time": 1691856693.0106566,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC\\Worm\\Worm-1999000.pt"
+                ]
+            },
+            {
+                "steps": 2499000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-2499000.onnx",
+                "reward": 1249.820285373264,
+                "creation_time": 1691858016.0976896,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC\\Worm\\Worm-2499000.pt"
+                ]
+            },
+            {
+                "steps": 2950000,
+                "file_path": "results\\EEL_4_SAC\\Worm\\Worm-2950000.onnx",
+                "reward": null,
+                "creation_time": 1691859280.533938,
+                "auxillary_file_paths": [
+                    "results\\EEL_4_SAC\\Worm\\Worm-2950000.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 350000,
+            "steps": 2950000,
             "file_path": "results\\EEL_4_SAC\\Worm.onnx",
             "reward": null,
-            "creation_time": 1691840115.284214,
+            "creation_time": 1691859280.533938,
             "auxillary_file_paths": [
-                "results\\EEL_4_SAC\\Worm\\Worm-350000.pt"
+                "results\\EEL_4_SAC\\Worm\\Worm-2950000.pt"
             ]
         }
     },
